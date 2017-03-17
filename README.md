@@ -18,7 +18,7 @@ More importantly, wherever I use or reference a specific tool, library, or class
 ## How Should I Use This Guide?
 Every directory in this repository will have a `README.md` file (such as this one), that is exposition relevant to the material in that directory and sub-directories.  Other files in the directory will be annotated examples of the topics addressed in the `README.md`.
 
-The suggested way to navigate, is to start at this top-level directory, and then proceed to `src/`, where you will find another `README.md` file.  Proceed down the directory structure to `com/`, then `cblades/`, and then `oop/`, reading any `README.md` files you encounter.
+To navigate this project, I suggest that you start at this top-level directory, and then proceed to `src/`, where you will find another `README.md` file.  Proceed down the directory structure to `com/`, then `cblades/`, and then `oop/`, reading any `README.md` files you encounter.
 
 At `src/com/cblades/oop`, you will encounter several directories with names like `01/`, `02/`, `03/`, etc.  Proceed through them in order; i.e., all the way to the bottom of the directory tree at `01/` before progressing to `02/`.
 
@@ -27,7 +27,7 @@ In directories where there are sourcecode files, the `README.md` will give a bri
 
 Each sourcecode file will take this form:
 
-```
+```java
 /***
  * PURPOSE:
  * An overview of the concepts covered in this file, in a numbered-list format:
