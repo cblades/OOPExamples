@@ -1,0 +1,4 @@
+# Packages
+Java projects are organized into packages.  A single package should contain java sourcecode files that share similar purposes.  `cblades.oop.database` could contain several sourcecode files that are used to access and interact with a database.  `cblades.oop.music` could have files pertaining to playing music files.
+
+Packages are directly analogous to directories, where every directory underneath the `src/main/java/` directory is its own package.  This directory, `cblades/`, is a package called `cblades` (even though it does not have any files in it).  `cblades/oop` is another package, called `cblades.oop`;  it is inside of `cblades` but is nevertheless a separate package.
