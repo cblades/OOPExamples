@@ -16,7 +16,7 @@ More importantly, wherever I use or reference a specific tool, library, or class
 
 
 ## How Should I Use This Guide?
-Every directy will in this repository will have a `README.md` file (such as this one), that is expository material relevant to the material in that directory, and sub-directories.  
+Every directory in this repository will have a `README.md` file (such as this one), that is exposition relevant to the material in that directory and sub-directories.  Other files in the directory will be annotated examples of the topics addressed in the `README.md`.
 
 The suggested way to navigate, is to start at this top-level directory, and then proceed to `src/`, where you will find another `README.md` file.  Proceed down the directory structure to `com/`, then `cblades/`, and then `oop/`, reading any `README.md` files you encounter.
 
