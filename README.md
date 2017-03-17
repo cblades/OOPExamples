@@ -35,7 +35,8 @@ Each sourcecode file will take this form:
  * 3) How do you print something to the console?
  *
  * PREREQUISITES:
- * What you should already know before tackling this file (if you've proceeded through this project in order, you should have been exposed to all prerequisites.  If you find otherwise, please submit a bug report).
+ * What you should already know before tackling this file (if you've proceeded through this project in order, 
+ * you should have been exposed to all prerequisites.  If you find otherwise, please submit a bug report).
  * - Intro to WTF even *is* a program?  [src/com/cblades/oop/] 
  *
  * @version 3/17/2017
@@ -50,9 +51,8 @@ Each sourcecode file will take this form:
      * public static void main(String[] args) {
      */
     public static void main(String[] args) {
-      // [1]  This line is the first one executed in this program, because it is the first line of code in the main method:
-      // [2]  This will print "Hello, World!" to the terminal.  
-      System.out.println("Hello, World!");
+      // [1]  System.out.println("Hello, World!"); is the first line of code executed in this program:
+      System.out.println("Hello, World!"); // [2]  This will print "Hello, World!" to the terminal:
     }
  }
 ```
